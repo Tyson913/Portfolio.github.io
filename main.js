@@ -33,4 +33,15 @@ toright.addEventListener('click', function(){
   toright.innerHTML = '<i class="fa-solid fa-caret-right" style="font-size: 30px; color: #697565;"></i>'
 });
 
+const pagescrollindic = document.querySelectorAll(".scroll-numindic-circ");
+
+pagescrollindic.forEach((indicator) => {
+  indicator.addEventListener('click', function() {
+    indicator.style.border = 'transparent';
+    indicator.style.backgroundColor = '#697565';
+  });
+});
+
+
+
 
